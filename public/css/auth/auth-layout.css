@@ -1,0 +1,88 @@
+.auth_block{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+
+.form{
+    margin: 0;
+    padding: 0;
+}
+
+.form ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    list-style-type: none;
+}
+
+.form ul li:first-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+
+.form ul li:first-child h4{
+    margin: 0;
+
+}
+
+.form ul li:first-child h1{
+    margin: 0;
+
+}
+
+.form ul li{
+    margin: 0;
+
+}
+
+.form ul li:last-child{
+    margin-top: 25px;
+
+}
+
+input[type = text], input[type = password], input[type = email]{
+    font-family: 'Lato'; 
+    padding: 18px 30px;
+    font-size: 1.04em;
+    border: 1px solid rgba(114, 114, 114, 0.856);
+    font-weight: 500;
+    color: black;
+    outline: none;
+    border-radius: 17px;
+    background-color: rgba(0,0,0,0.05);
+}
+
+.first{
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-bottom: 0px solid white !important;
+}
+.last{
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.button{
+    width: 100% !important;
+    text-align: center;
+}
+
+
+
+/* .background{
+    background: linear-gradient(65deg, rgba(24,84,255, 0.89), rgba(25,155,94, 0.89));
+} */

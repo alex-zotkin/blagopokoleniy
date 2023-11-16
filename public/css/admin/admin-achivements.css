@@ -1,0 +1,42 @@
+.block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.achievements_block, .docs_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+
+.file-upload{
+    margin-top: 80px !important;
+}
+
+.file-upload input[type = file]{
+    /* display: none; */
+}
+
+.achievements_block{
+    width: 50%;
+    border-right: 1px solid rgba(223,223,223,1);
+}
+
+.docs_block{
+    width: 49%;
+}
+
+
+
+
+
+
+

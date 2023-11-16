@@ -1,0 +1,34 @@
+.articles_block{
+    padding: 65px 0 65px 0;
+    border-top: 1px solid rgba(189, 189, 189, 0.75);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.articles_news {
+    width: 70%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px 30px;
+    justify-content: center;
+    margin: 0;
+}
+
+
+.articles_news a{
+    color: #1854FF;
+    text-decoration: none;
+}
+
+.articles_news a:hover{
+    color:rgb(8, 61, 206);
+}
+
+
+
+
+
+

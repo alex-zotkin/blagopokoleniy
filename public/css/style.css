@@ -1,0 +1,78 @@
+/* @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&subset=cyrillic'); */
+
+@font-face { 
+    font-family: 'Lato'; 
+    src: url('../fonts/Lato-Light.ttf');                                
+    font-weight: 200; 
+    font-style: normal; 
+  }
+
+@font-face { 
+    font-family: 'Lato'; 
+    src: url('../fonts/Lato-Regular.ttf');                                
+    font-weight: 300; 
+    font-style: normal; 
+  }
+
+@font-face { 
+    font-family: 'Lato'; 
+    src: url('../fonts/Lato-Semibold.ttf');                                
+    font-weight: 400; 
+    font-style: normal; 
+  }
+
+  @font-face { 
+    font-family: 'Lato'; 
+    src: url('../fonts/Lato-Heavy.ttf');                                   
+    font-weight: 600; 
+    font-style: normal; 
+  }
+
+  @font-face { 
+    font-family: 'Lato'; 
+    src: url('../fonts/Lato-Black.ttf');                                   
+    font-weight: 700; 
+    font-style: normal; 
+  }
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#main{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    float: left;
+    background: linear-gradient(65deg, rgba(24,84,255, 0.89), rgba(25,155,94, 0.89));
+}
+
+/* rgb(60, 112, 255) */
+
+.button{
+  font-family: 'Lato'; 
+  color: white;
+  text-decoration: none;
+  padding: 10px 25px;
+  background: linear-gradient(to bottom left, #2554AF, rgba(24,84,255, 1)); 
+  /* border-radius: 7px; */
+  border-radius: 200px;
+  transition: all 0.2s;
+  /* border: 1px solid rgb(1, 54, 200); */
+  border: 2px solid rgba(255,255,255,0.1);
+  font-weight: 500;
+  font-size: 1em;
+  cursor: pointer;
+  outline: none;
+}
+
+
+
+
+
+
+
